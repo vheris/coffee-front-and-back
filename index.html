@@ -30,8 +30,10 @@
     <main class="main" id="main">
 
         <section class="coffee-base">
-            <h2 class="coffee-base__title">Твое персональное кофе</h2>
-            <h3 class="coffee-base__subtitle">Кофе - твой фундамент</h3>
+            <div class="coffee-base__title-container">
+                <h2 class="coffee-base__title title_main">Твой персональный кофе</h2>
+                <h3 class="coffee-base__subtitle subtitle_main">Кофе - твой фундамент</h3>
+            </div>
             <div class="coffee-base__features">
                 <div class="feature">
                     <img src="./assets/icons/ic.png" alt="" class="feature__icon">
@@ -57,117 +59,145 @@
         </section>
 
         <section class="coffee-collection" id="coffee">
-            <h2 class="coffee-collection__title">Выбери свой любимый</h2>
-            <h3 class="coffee-collection__subtitle">Стандартный вкус, уникальный аромат</h3>
-            <div class="coffee-collection__list">
-                <div class="product-card">
-                    <img src="./assets/img/IMAGE.png" alt="" class="product-card__image">
-                    <p class="product-card__price">99.000</p>
-                    <h3 class="product-card__title">REVO утро</h3>
-                    <p class="product-card__description">горький, сладкое послевкусие, цветочный аромат</p>
-                    <div class="product-card__buttons">
-                        <button class="button button_buy">Купить</button>
-                        <button class="button button_detail">Подробнее</button>
-                    </div>
+            <div class="coffee-collection__content">
+                <div class="coffee-collection__title-container">
+                    <h2 class="coffee-collection__title title_main">Выбери свой любимый</h2>
+                    <h3 class="coffee-collection__subtitle subtitle_main">Стандартный вкус, уникальный аромат</h3>
                 </div>
-                <div class="product-card">
-                    <img src="./assets/img/image_(1).png" alt="" class="product-card__image">
-                    <p class="product-card__price">139.000</p>
-                    <h3 class="product-card__title">REVO оригинальный</h3>
-                    <p class="product-card__description">сладкое послевкусие, легкая горчинка, вкус клубники</p>
-                    <div class="product-card__buttons">
-                        <button class="button button_buy">Купить</button>
-                        <button class="button button_detail">Подробнее</button>
+                <div class="coffee-collection__list">
+                    <div class="product-card">
+                        <img src="./assets/img/IMAGE.png" alt="" class="product-card__image">
+                        <div class="product-card__content">
+                            <p class="product-card__price">99.000</p>
+                            <h3 class="product-card__title">REVO утро</h3>
+                            <p class="product-card__description">горький, сладкое послевкусие, цветочный аромат</p>
+                            <div class="product-card__buttons">
+                                <button class="button button_buy">Купить</button>
+                                <button class="button_secondary button_detail">Подробнее</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="product-card">
-                    <img src="./assets/img/IMAGE_(2).png" alt="" class="product-card__image">
-                    <p class="product-card__price">85.000</p>
-                    <h3 class="product-card__title">REVO Повседневный</h3>
-                    <p class="product-card__description">сбалансированный, горькое послевкусие, вкус шоколада</p>
-                    <div class="product-card__buttons">
-                        <button class="button button_buy">Купить</button>
-                        <button class="button button_detail">Подробнее</button>
+                    <div class="product-card">
+                        <img src="./assets/img/image_(1).png" alt="" class="product-card__image">
+                        <div class="product-card__content">
+                            <p class="product-card__price">139.000</p>
+                            <h3 class="product-card__title">REVO оригинальный</h3>
+                            <p class="product-card__description">сладкое послевкусие, легкая горчинка, вкус клубники</p>
+                            <div class="product-card__buttons">
+                                <button class="button button_buy">Купить</button>
+                                <button class="button_secondary button_detail">Подробнее</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="product-card">
-                    <img src="./assets/img/IMAGE_(3).png" alt="" class="product-card__image">
-                    <p class="product-card__price">75.000</p>
-                    <h3 class="product-card__title">REVO насыщенный</h3>
-                    <p class="product-card__description">насыщенный, горький, традиционный</p>
-                    <div class="product-card__buttons">
-                        <button class="button button_buy">Купить</button>
-                        <button class="button button_detail">Подробнее</button>
+                    <div class="product-card">
+                        <img src="./assets/img/IMAGE_(2).png" alt="" class="product-card__image">
+                        <div class="product-card__content">
+                            <p class="product-card__price">85.000</p>
+                            <h3 class="product-card__title">REVO Повседневный</h3>
+                            <p class="product-card__description">сбалансированный, горькое послевкусие, вкус шоколада</p>
+                            <div class="product-card__buttons">
+                                <button class="button button_buy">Купить</button>
+                                <button class="button_secondary button_detail">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="./assets/img/IMAGE_(3).png" alt="" class="product-card__image">
+                        <div class="product-card__content">
+                            <p class="product-card__price">75.000</p>
+                            <h3 class="product-card__title">REVO насыщенный</h3>
+                            <p class="product-card__description">насыщенный, горький, традиционный</p>
+                            <div class="product-card__buttons">
+                                <button class="button button_buy">Купить</button>
+                                <button class="button_secondary button_detail">Подробнее</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="gift-set" id="gift">
-            <h2 class="gift-set__title">Лучший подарок лучшему другу</h2>
-            <h3 class="gift-set__subtitle">Подарочный набор</h3>
-            <div class="gift-set__image">
-                <img src="./assets/img/pr-0018-r.png" alt="">
+            <div class="gift-set__title-content">
+                <h2 class="gift-set__title title_main">Лучший подарок лучшему другу</h2>
+                <h3 class="gift-set__subtitle subtitle_main">Подарочный набор</h3>
             </div>
             <div class="gift-set__info">
-                <p class="gift-set__price">285.000</p>
-                <h3 class="gift-set__name">Подарочный набор "Вьетнамский кофе в фильтре"</h3>
-                <p class="gift-set__description">
-                    Идеальный подарок для настоящих ценителей кофе. 
-                    Зерна кофе тщательно отобраны Revo, обжарены и смолоты 
-                    по технологии и секретам, перенятым у знаменитых мастеров, 
-                    вместе с любовью и страстью создателей кофе… создавая чистый 
-                    кофе, предназначенный только для вас.
-                </p>
-                <div class="gift-set__detail">
-                    <img src="./assets/icons/IC_coffee.png" alt="" class="gift-set__detail-icon">
-                    <p class="gift-set__detail-label">Тип зерен</p>
-                    <p class="gift-set__detail-value">Смесь Fine Robusta</p>
+                <div class="gift-set__image">
+                    <img src="./assets/img/pr-0018-r.png" alt="">
                 </div>
-                <div class="gift-set__detail">
-                    <img src="./assets/icons/IC_Mountain.png" alt="" class="gift-set__detail-icon">
-                    <p class="gift-set__detail-label">Высота</p>
-                    <p class="gift-set__detail-value">700 - 800м</p>
-                </div>
-                <div class="gift-set__buttons">
-                    <button class="button button_buy">Купить</button>
-                    <button class="button button_detail">Подробнее</button>
+                <div class="gift-set__content">
+                    <p class="gift-set__price">285.000</p>
+                    <h3 class="gift-set__name">Подарочный набор "Вьетнамский кофе в фильтре"</h3>
+                    <p class="gift-set__description">
+                        Идеальный подарок для настоящих ценителей кофе. 
+                        Зерна кофе тщательно отобраны Revo, обжарены и смолоты 
+                        по технологии и секретам, перенятым у знаменитых мастеров, 
+                        вместе с любовью и страстью создателей кофе… создавая чистый 
+                        кофе, предназначенный только для вас.
+                    </p>
+                    <div class="gift-set__detail-content">
+                        <div class="gift-set__detail">
+                            <img src="./assets/icons/IC_coffee.png" alt="" class="gift-set__detail-icon">
+                            <div class="gift-set__detail_text">
+                                <p class="gift-set__detail-label">Тип зерен</p>
+                                <p class="gift-set__detail-value">Смесь Fine Robusta</p>
+                            </div>
+                        </div>
+                        <div class="gift-set__detail">
+                            <img src="./assets/icons/IC_Mountain.png" alt="" class="gift-set__detail-icon">
+                            <div class="gift-set__detail_text">
+                                <p class="gift-set__detail-label">Высота</p>
+                                <p class="gift-set__detail-value">700 - 800м</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gift-set__buttons">
+                        <button class="button button_buy">Купить</button>
+                        <button class="button_secondary button_detail">Подробнее</button>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="personal-coffee" id="filter">
-            <h2 class="personal-coffee__title">Ваш персональный кофе</h2>
-            <h3 class="personal-coffee__subtitle">Комбо набор с фильтром</h3>
+            <h2 class="personal-coffee__title title_main">Ваш персональный кофе</h2>
+            <h3 class="personal-coffee__subtitle subtitle_main">Комбо набор с фильтром</h3>
             <div class="personal-coffee__list">
                 <div class="personal-coffee__card">
                     <img src="./assets/img/image_(6).png" alt="" class="personal-coffee__card-image">
-                    <p class="personal-coffee__card-price">147.000</p>
-                    <h3 class="personal-coffee__card-title">REVO насыщенный</h3>
-                    <p class="personal-coffee__card-description">насыщенный, горький, традиционный</p>
-                    <div class="personal-coffee__card-buttons">
-                        <button class="button button_buy">Купить</button>
-                        <button class="button button_detail">Подробнее</button>
+                    <div class="personal-coffee__card-content">
+                        <p class="personal-coffee__card-price">147.000</p>
+                        <h3 class="personal-coffee__card-title">REVO насыщенный</h3>
+                        <p class="personal-coffee__card-description">насыщенный, горький, традиционный</p>
+                        <div class="personal-coffee__card-buttons">
+                            <button class="button button_buy">Купить</button>
+                            <button class="button_secondary button_detail">Подробнее</button>
+                        </div>
                     </div>
                 </div>
                 <div class="personal-coffee__card">
                     <img src="./assets/img/image_(7).png" alt="" class="personal-coffee__card-image">
-                    <p class="personal-coffee__card-price">156.000</p>
-                    <h3 class="personal-coffee__card-title">REVO насыщенный</h3>
-                    <p class="personal-coffee__card-description">насыщенный, горький, традиционный</p>
-                    <div class="personal-coffee__card-buttons">
-                        <button class="button button_buy">Купить</button>
-                        <button class="button button_detail">Подробнее</button>
+                    <div class="personal-coffee__card-content">
+                        <p class="personal-coffee__card-price">156.000</p>
+                        <h3 class="personal-coffee__card-title">REVO насыщенный</h3>
+                        <p class="personal-coffee__card-description">насыщенный, горький, традиционный</p>
+                        <div class="personal-coffee__card-buttons">
+                            <button class="button button_buy">Купить</button>
+                            <button class="button_secondary button_detail">Подробнее</button>
+                        </div>
                     </div>
                 </div>
                 <div class="personal-coffee__card">
                     <img src="./assets/img/image_(8).png" alt="" class="personal-coffee__card-image">
-                    <p class="personal-coffee__card-price">275.000</p>
-                    <h3 class="personal-coffee__card-title">REVO насыщенный</h3>
-                    <p class="personal-coffee__card-description">насыщенный, горький, традиционный</p>
-                    <div class="personal-coffee__card-buttons">
-                        <button class="button button_buy">Купить</button>
-                        <button class="button button_detail">Подробнее</button>
+                    <div class="personal-coffee__card-content">
+                        <p class="personal-coffee__card-price">275.000</p>
+                        <h3 class="personal-coffee__card-title">REVO насыщенный</h3>
+                        <p class="personal-coffee__card-description">насыщенный, горький, традиционный</p>
+                        <div class="personal-coffee__card-buttons">
+                            <button class="button button_buy">Купить</button>
+                            <button class="button_secondary button_detail">Подробнее</button>
+                        </div>
                     </div>
                 </div>
             </div>
